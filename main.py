@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=FLZvOKSCkxY&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=1
+
 from nltk.tokenize import sent_tokenize, word_tokenize
 
 # Tokenizing - Word & Sentences tokenizers

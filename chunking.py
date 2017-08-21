@@ -1,4 +1,8 @@
-# https://www.youtube.com/watch?v=6j6M2MtEqi8&index=4&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+# https://www.youtube.com/watch?v=imPpT2Qo2sk&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=5
+
+# Question the sentence, get the context
+
+
 """
 
 Number
@@ -59,7 +63,12 @@ def process_content():
             words = nltk.word_tokenize(i)
             tagged = nltk.pos_tag(words)
 
-            print(tagged)
+            chunkGram = r""" Chunk: {<RB.?>*<VB.?>*<NNP>+<NN>?}"""
+
+            chunkParser = nltk.RegexpParser(chunkGram)
+            chunked = chunkParser.parse(tagged)
+
+            chunked.draw()
 
     except Exception as e:
         print(str(e))

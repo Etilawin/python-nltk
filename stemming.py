@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=yGKTphqxR9Q&index=3&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
+
 # Stemming = recherche du radical
 # Stemming => Look for the stem of a word
 
