@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=ReakZVh2Xwk&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=14
+# https://www.youtube.com/watch?v=nla4C-VYNEU&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=15
 
 # Classify a text (spam | not spam)
 
@@ -14,6 +14,7 @@ documents = [(list(movie_reviews.words(fileid)), category)
 random.shuffle(documents)
 
 all_words = []
+
 for w in movie_reviews.words():
     all_words.append(w.lower())
 
